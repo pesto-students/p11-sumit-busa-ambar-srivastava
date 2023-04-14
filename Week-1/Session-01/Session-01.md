@@ -1,4 +1,4 @@
-#### Question-01: What is a protocol stack, and how is it used in web development?
+## Question-01: What is a protocol stack, and how is it used in web development?
 
 **Answer-01:** Protocol Stack is a collection of communication protocols that work together to enable network communication between different devices or systems.
 
@@ -13,7 +13,7 @@ This diagram is by no means complete. There are many more protocols in the Inter
 
 **Source of Info :** [Khan Academy](https://duckduckgo.com)
 
-#### Question-02: What are the different types of web servers, and how do they differ in terms of functionality and performance?
+## Question-02: What are the different types of web servers, and how do they differ in terms of functionality and performance?
 
 **Answer-02:** Currently, there are several types of web servers available. Few of them are -
 
@@ -26,7 +26,7 @@ This diagram is by no means complete. There are many more protocols in the Inter
 7. **Web Server:** Web server is a computer software and underlying hardware that Accept request through HTTP. HTTP is a network protocol which is used to distribute the web pages. Using HTTP web browser send request to the server and initiate the communication. Then web server responds with the resources or content or error message. web server also accepts and store the resources sent from the user agent.
 8. **Cloud Servers:** Virtual server is a server that is located in an offsite data center and its resources are shared by multiple users who have control over it. In other words, we can say that virtual server converts one physical server into multiple virtual machine where each can run their operating systems. Virtual servers are a more efficient use of power and can increase a server’s utilization from the typical 15 percent to as much as 80 percent. They are used for variety of applications from remote file access to web design and development.
 
-#### Question-03: What is web hosting, and what are the different types of hosting services available for websites?
+## Question-03: What is web hosting, and what are the different types of hosting services available for websites?
 
 **Answer-03:** Web hosting is a service that allows organizations and individuals to make their web applications accessible on the internet. Web hosting providers offer storage space on servers and provide the necessary infrastructure and services to ensure that web applications can be accessed by visitors around the world.
 
@@ -38,7 +38,7 @@ There are several types of hosting services available, with their own features a
 4. **Cloud hosting:** Cloud hosting involves multiple servers working together to host a website or application. This provides high scalability, flexibility, and reliability, as resources can be added or removed as needed.
 5. **Managed hosting:** Managed hosting involves a hosting provider managing and maintaining the server infrastructure and software on behalf of the website owner. This is a good option for businesses or individuals who do not have the technical expertise to manage their own server.
 
-#### Question-04: What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+## Question-04: What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
 
 **Answer-03:** Scaling refers to the process of increasing the capacity of a system to handle larger amounts of traffic, users, or data. In the context of web applications, scaling is important because as a website or application grows in popularity and usage, it may experience unexpectedly high traffic, which can lead to slow response times, errors, and downtime.
 
@@ -50,7 +50,7 @@ We can achieve scaling through **two** main approaches: vertical scaling and hor
 ![vertical and horizontal scaling flow chart](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210209202449/Scaling-Concept.png "vertical and horizontal scaling chart")
 Both, vertical scaling and horizontal scaling are important for web applications, as they enable the application to handle traffic spikes, scale resources to meet demand, and improve overall reliability and performance.
 
-#### Question-05: What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+## Question-05: What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
 
 **Answer-05:** SEO (Search Engine Optimization), is the practice of improving the visibility and ranking of a website in search engine results pages (SERPs). The goal of SEO is to increase organic traffic to a website by making it more visible to users who are searching for related keywords, phrases or content.
 
