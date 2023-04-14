@@ -48,6 +48,7 @@ We can achieve scaling through **two** main approaches: vertical scaling and hor
 2. **Horizontal Scaling:** Horizontal scaling involves adding more servers to distribute the load and increase the capacity of the system. This approach requires more planning and coordination but allows for greater scalability and redundancy. Horizontal scaling is typically used for large-scale applications with high and consistent traffic volumes.
 
 ![vertical and horizontal scaling flow chart](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210209202449/Scaling-Concept.png "vertical and horizontal scaling chart")
+
 Both, vertical scaling and horizontal scaling are important for web applications, as they enable the application to handle traffic spikes, scale resources to meet demand, and improve overall reliability and performance.
 
 ## Question-05: What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
