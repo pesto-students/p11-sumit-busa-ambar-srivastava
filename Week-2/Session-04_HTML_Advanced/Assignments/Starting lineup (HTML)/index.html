@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting lineup (HTML)</title>
+  </head>
+  <body>
+    <header><h1>Starting Lineup</h1></header>
+    <main>
+      <form action="multipart/form-data" method="POST">
+        <article>
+            <p>
+                <fieldset>
+                    <legend>Status:
+                    </legend>
+                    <input type="radio" name="radio">
+                    <label for="radio">Draft</label>
+                    <input type="radio" name="radio">
+                    <label for="radio">Final</label>
+                </fieldset>
+            </p>
+        </article>
+        <br />
+        <article>
+          <label for="gameDate">Date:</label>
+          <select name="gameDate" id="gameDate">
+            <option value="gameDate">March 20</option>
+            <option value="gameDate">March 24</option>
+            <option value="gameDate">April 2</option>
+            <option value="gameDate">April 6</option>
+            <option value="gameDate">April 13</option>
+          </select>
+        </article>
+        <br /><article>
+            <p>
+                <fieldset>
+                    <legend>Players:
+                    </legend>
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Aarav Agarwal</label>
+                    <br>
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Ava Johnson</label>
+                    <br>
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Julio Ortiz</label>
+                    <br>
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Liam Rubio</label>
+                    <br>
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox">Emma Witherspoon</label>
+                </fieldset>
+            </p>
+        </article>
+        <br>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>

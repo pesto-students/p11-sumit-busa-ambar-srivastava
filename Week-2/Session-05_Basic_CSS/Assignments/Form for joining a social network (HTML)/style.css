@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 1rem;
+  width: 30%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+main{
+  width: 30%;
+}
+
+form {
+  width: 100%;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+#fullName {
+  margin-left: 3rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+
+#email {
+  margin-left: 1.4rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+
+#about {
+  margin-left: 2.8rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+}
+
+#picture {
+  margin-left: 4.7rem;
+}

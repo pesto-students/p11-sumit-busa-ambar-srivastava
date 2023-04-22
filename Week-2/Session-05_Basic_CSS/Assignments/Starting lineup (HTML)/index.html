@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting lineup (HTML)</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>Starting Lineup</h1>
+    </header>
+    <main>
+      <form action="multipart/form-data" method="POST">
+        <section>
+            <p>
+                <fieldset id="status">
+                    <legend>
+                        Status:
+                    </legend>
+                  <article>
+                    <input type="radio" name="radio" class="radio">
+                    <label for="radio" class="label">Draft</label>
+                  </article>
+                  <article>
+                    <input type="radio" name="radio" class="radio">
+                    <label for="radio" class="label">Final</label>
+                  </article>
+                </fieldset>
+            </p>
+        </section>
+        <br />
+        <section>
+          <article>
+            <label for="gameDate">Date:</label>
+            <select name="gameDate" id="gameDate">
+              <option value="March 20">March 20</option>
+              <option value="March 24">March 24</option>
+              <option value="April 2">April 2</option>
+              <option value="April 6">April 6</option>
+              <option value="April 13">April 13</option>
+          </article>
+          </select>
+        </section>
+        <br />
+        <section>
+            <p>
+                <fieldset>
+                    <legend>
+                        Players:
+                    </legend>
+                    <article>
+                      <input type="checkbox" name="checkbox">
+                      <label for="checkbox">Aarav Agarwal</label>
+                  
+                    <br>
+                 
+                      <input type="checkbox" name="checkbox">
+                      <label for="checkbox">Ava Johnson</label>
+                    
+                    <br>
+                    
+                      <input type="checkbox" name="checkbox">
+                      <label for="checkbox">Julio Ortiz</label>
+                   
+                    <br>
+                    
+                      <input type="checkbox" name="checkbox">
+                      <label for="checkbox">Liam Rubio</label>
+                   
+                    <br>
+                      <input type="checkbox" name="checkbox">
+                      <label for="checkbox">Emma Witherspoon</label>
+                    </article>
+                </fieldset>
+            </p>
+        </section>
+        <br>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </main>
+  </body>
+</html>
